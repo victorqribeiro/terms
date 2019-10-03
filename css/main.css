@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial;
+  font-size: 1.1em;
+}
+
+input, button {
+	font-family: Arial;
+  font-size: 1.1em;
+	box-sizing: border-box;
+	height: 2em;
+	padding: 0.3em;
+}
+
+#main {
+	height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#result {
+	display: block;
+	max-width: 80%;
+	margin-top: 1em;
+}
