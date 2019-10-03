@@ -1,4 +1,4 @@
-async function getRelatedTerms(term){
+const getRelatedTerms = async function(term){
 	
 	if( !term ) return null;
 		
